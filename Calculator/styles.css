@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Digital';
+  src: url('Open 24 Display St.ttf');
+}
+
+.orange {
+  background-color: orange;
+}
+
+.body {
+  background-color: black;
+  padding: 20px;
+  border: solid black 1px;
+  border-radius: 15px;
+}
+
+button {
+  background-color: #4c4c4c;
+  color: white;
+  font-size: 50px;
+  font-family: 'Digital';
+  width: 80px;
+  height: 80px;
+  margin: 1px;
+  border: none;
+  box-shadow: none;
+  border-radius: 50px;
+}
+
+body {
+  /* background-color: black; */
+  display: flex;
+  /* gap: 50px; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* .doubleHigh {
+  height: 160px;
+} */
+
+/* .doubleWide {
+  width: 166px;
+} */
+
+.display {
+  color: white;
+  margin-bottom: 5px;
+  width: 320px;
+  height: 60px;
+  background-color: black;
+  /* border: 1px solid rgb(126, 124, 124); */
+  border-radius: 4px;
+  padding: 10px;
+  text-align: right;
+  font-family: 'Digital';
+  font-size: 50px;
+}
+
+.rowZero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
