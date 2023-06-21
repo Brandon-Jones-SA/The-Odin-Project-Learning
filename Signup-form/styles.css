@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.left {
+  flex: 1 1 35%;
+  background-image: url('sign up backgroud image.png');
+  background-size: auto;
+  background-position: top;
+  background-position-y: -150px;
+  background-color: #e7e8ff;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.right {
+  flex: 2 1 65%;
+  align-items: space-between;
+}
+
+.logo {
+  font-family: 'Lobster';
+  font-size: 35px;
+  text-align: center;
+  padding-top: 150px;
+  color: #032068;
+}
+
+.rightContainer {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px;
+  flex-wrap: wrap;
+}
+
+.heading {
+  font-family: 'Lobster';
+  font-size: 30px;
+  word-wrap: normal;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.label {
+  display: block;
+  width: 100%;
+  font-family: 'Lobster';
+  font-size: 20px;
+}
+
+.button {
+  flex-basis: 100%;
+  justify-content: flex-start;
+}
+
+.input > label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+input {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px #032068;
+}
+
+input:focus {
+  border: none;
+  border-bottom: solid 1px #032068;
+}
+
+/* CSS */
+button {
+  background: #032068;
+  border-radius: 999px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, 'Apple Color Emoji', 'Segoe UI Emoji',
+    NotoColorEmoji, 'Noto Color Emoji', 'Segoe UI Symbol', 'Android Emoji',
+    EmojiSymbols, -apple-system, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue',
+    'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+
+  border: 0;
+}
